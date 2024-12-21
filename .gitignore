@@ -1,0 +1,42 @@
+frontend/node_modules/
+frontend/.prettierrc
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Ignore log files
+*.log
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore environment variable files
+.env
+
+# Ignore build or temporary directories
+dist/
+build/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
